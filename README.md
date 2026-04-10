@@ -10,6 +10,12 @@ Docs >>> [[MLflow Documentation](https://mlflow.org/docs/latest)]
 
 ---
 
+### **Tracking Server**
+    ```python
+    uvx mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 127.0.0.1 --port 5000
+    ```
+
+
 ### **Get Started**
 
 1. (데이터를 받아줄) 서버 열기
